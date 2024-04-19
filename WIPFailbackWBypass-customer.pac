@@ -2,7 +2,6 @@ function FindProxyForURL(url, host) {
 	// Bypasses
 		if(shExpMatch(host, "jamf.customer.com") || 
 		shExpMatch(host, "zscaler.com") || 
-		shExpMatch(host, "XXXXdgcommp01.msp.digitalguardian.com") || 
 		shExpMatch(host, "zscloud.net") || 
 		shExpMatch(host, "certauth.login.microsoftonline.com") || 
 		shExpMatch(host, "manage.microsoft.com") || 
