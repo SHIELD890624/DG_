@@ -20,7 +20,7 @@ function FindProxyForURL(url, host) {
 		shExpMatch(host, "login-us.microsoftonline.com") || 
 		shExpMatch(host, "manage.microsoft.com") || 
 		shExpMatch(host, "sts.windows.net") || 
-		shExpMatch(host, "docker.io") ||
+		shExpMatch(host, "index.docker.io") ||
 		shExpMatch(host, "docker.com") ||
 		shExpMatch(host, "teams.microsoft.com") )
 		return "DIRECT";
